@@ -1,8 +1,6 @@
 body{
 	background-color: #FFFFFF;
-	margin-left: auto;
-	margin-right: auto;
-	width: 600px;
+  background-image: url(./img/bg.png);
 	text-align: center;
 }
 
@@ -21,4 +19,10 @@ a:hover {
 a:active {
     color: #B2DFDB;
     text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
