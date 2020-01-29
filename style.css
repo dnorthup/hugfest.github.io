@@ -1,0 +1,24 @@
+body{
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+}
+
+a:link {
+    color: #FF4081;
+    text-decoration: none;
+}
+a:visited {
+    color: #FF4081;
+    text-decoration: none;
+}
+a:hover {
+    color: #B2DFDB;
+    text-decoration: none;
+}
+a:active {
+    color: #B2DFDB;
+    text-decoration: none;
+}
