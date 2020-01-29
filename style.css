@@ -4,6 +4,32 @@ body{
 	text-align: center;
 }
 
+p{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	color: #0d0d0d;
+	letter-spacing: 2pt;
+	word-spacing: 4pt;
+	font-size: 12px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1.5;
+}
+
+h2{
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	font-weight: normal;
+	color: #212121;
+	letter-spacing: 3pt;
+	word-spacing: 6pt;
+	font-size: 22px;
+	text-align:center;
+	font-family: helvetica, sans-serif;
+	line-height: 1;
+}
+
+}
+
 a:link {
     color: #FF4081;
     text-decoration: none;
@@ -25,4 +51,23 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
+   z-index: -1;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
